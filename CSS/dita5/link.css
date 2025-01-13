@@ -1,0 +1,33 @@
+a:link {
+    color:rgb(0, 0, 0)
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(33, 20, 220);
+}
+a:active {
+    color: rgb(252, 0, 168);
+}
+
+#a1:link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+#a1:visited {
+    color: rgb(255, 0, 0);
+}
+#a1:hover {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: white;
+}
+#a1:active{
+    color: crimson;
+}

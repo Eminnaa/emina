@@ -1,0 +1,58 @@
+#input1:focus {
+    background-color: rgb(160, 192, 250);
+    font-size: 25px;
+}
+
+#input2:disabled {
+    background-color: navy;
+}
+#input2:enabled {
+    background-color: navy;
+}
+
+.input3:checked {
+    height: 30px;
+    width: 30px;
+}
+
+p:first-of-type {
+    background-color: yellow;
+}
+p:last-of-type {
+    background-color: yellow;
+}
+
+p:first-child {
+    background-color: dodgerblue;
+}
+p:last-child {
+    background-color: dodgerblue;
+}
+
+p:empty {
+    width: 100px;
+    height: 20px;
+    background-color: deeppink;
+}
+
+p {
+    color: cadetblue;
+}
+:not(p) {
+    /*Per the funksionuar kjo call duhet gjitashtu edhe selectorit te caktuar ti jepet nje veti e caktuar*/
+    background-color: lightblue;
+}
+
+p {
+    background-color: blue;
+}
+
+:root {
+    background-color: lightpink;
+}
+
+:target {
+    border: 20px pink;
+    background-color: rgb(179, 158, 255);
+}
+

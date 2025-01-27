@@ -3,8 +3,26 @@
     padding: 20px;
     width: 700px;
     margin: auto;
+    
 }
 
-#p1 {
-    font: bold italic small-caps 10vw georgian;
+#div2 h3{
+    font-variant: small-caps;
+    color: aqua;
+}
+
+#div3 h3{
+    font-variant: small-caps;
+    color: aqua;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+#p1{
+    border-left: 3px solid grey;
+}
+#p2{
+    border-left: 3px solid grey;
 }

@@ -1,0 +1,91 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 20;
+    margin: 20;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a:hover{
+    background-color: green;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    background-color: #333;
+    border: none;
+  }
+  
+  .dropbtn:hover {
+    background-color: green;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    top: 100%; 
+    left: 0;
+  }
+  
+  
+  .dropdown-content .row {
+    display: flex;
+    background: #f9f9f9;
+  }
+  
+  .dropdown-content .column {
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+

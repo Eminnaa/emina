@@ -1,0 +1,103 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: aliceblue;
+    transition: transfrom 2s;
+}
+
+#div1:hover{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: darkred;
+    transform: translate(100px, 200px);
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    transition: width 2s,height 2s, transform 2s;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+#div2:hover{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    color: darkred;
+    transform:rotate(360deg);
+
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: aliceblue;
+    transition: 2s,width 2s,height 2s,transform 2s;
+}
+
+#div3:hover{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: darkred;
+    margin-left: 50px;
+    transform: scale(2, 3);
+}
+
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: aliceblue;
+    transition: width 2s, height 2s, transfrom 2s;
+}
+
+#div4:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: skew(35deg, 35deg);
+}
+
+#div5{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: aliceblue;
+    transition: width 2s, height 2s, transfrom 2s;
+}
+
+#div5:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: rotatey(360deg);
+}
+
+#div6{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: aliceblue;
+    transition: width 2s, height 2s, transfrom 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+#div6:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: matrix(5, 0.5, 0.5, 4, 200, 10);
+}
+
